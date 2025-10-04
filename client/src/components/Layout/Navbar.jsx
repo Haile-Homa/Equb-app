@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
+import { AiOutlineHome } from 'react-icons/ai';
 import { NotificationContext } from "../../context/NotificationContext";
 
 
@@ -12,8 +13,8 @@ const Navbar = () => {
     const { notificationsCount } = useContext(NotificationContext);
 
     return (
-        <div className="fixed top-0 left-0 right-0
-             bg-light-brand-primary text-white p-4 py-5
+        <div className="fixed top-0 left-0 right-0 z-50
+             bg-light-brand-secondary text-white p-4 py-5
              flex justify-between items-center shadow-md
              w-full lg:h-10 mx-auto  lg:border-x-2 lg:border-gray-300 lg:z-50 ">
 
@@ -22,6 +23,8 @@ const Navbar = () => {
             {/* Left section */}
             <div className="flex items-center justify-center space-x-2">
                 <Link to="/">
+
+
                     <img src={assets.home_white_svg} alt="Home" className="w-6 h-6" />
                 </Link>
                 <span className="font-bold text-md pl-1 mt-2">X-Equb</span>

@@ -7,7 +7,7 @@ import { sliderImages } from "./sliderData";
 
 const ImageSlider = () => {
     return (
-        <div className="max-w-3xl mx-auto mt-10    ">
+        <div className="w-full mt-10    ">
             <Swiper
                 modules={[Autoplay, Pagination]}
                 spaceBetween={20}

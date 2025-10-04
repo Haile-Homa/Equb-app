@@ -18,12 +18,15 @@ const Footer = () => {
                         fixed bottom-0 left-0 right-0 
                         border-t-2 rounded-t-2xl bg-light-background p-3 
                         flex justify-around shadow-inner w-full 
-                        border-x-2 border-gray-300  
+                        border-x-2 border-gray-300 
 
-                        /* ⬇️ Sidebar mode on lg */
+              /* ⬇️ Sidebar mode on lg */
                         lg:top-0 lg:bottom-0 lg:left-0 lg:w-56 lg:h-screen
                         lg:flex-col lg:items-start lg:justify-start 
-                        lg:rounded-none lg:border-t-0 lg:border-r-2  lg:pt-20  
+                        lg:rounded-none lg:border-t-0 lg:border-r-2  lg:pt-20 
+
+ 
+ 
                         ">
 
 
@@ -61,7 +64,6 @@ const Footer = () => {
 };
 
 export default Footer;
-
 
 
 

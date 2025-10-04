@@ -14,6 +14,12 @@ export default {
           brand: {
             primary: "#418AC7",
             secondary: "#63b3ed",
+            // tertiary: "#9333EA",
+            //  tertiary: "#F97316",
+            // tertiary: "#1F2937",
+            tertiary: "#1d82ed",
+            
+           
             foreground: "#ffffff",
           },
 

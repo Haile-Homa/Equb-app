@@ -1,20 +1,15 @@
-
-import React from "react";
 import Card from "./Card";
-import { assets } from "../../assets/assets";
-
+import { AiOutlineCalendar, AiOutlineClockCircle, AiOutlineSchedule } from "react-icons/ai";
 
 const PeriodsFilter = () => {
-
-    const types = [
-    { name: "Daily", value: "daily", icon: assets.daily },
-    { name: "Weekly", value: "weekly", icon: assets.weekly },
-    { name: "Monthly", value: "monthly", icon: assets.monthly },
+  const types = [
+    { name: "Daily", value: "daily", icon: <AiOutlineCalendar className="text-gray-600" size={36} /> },
+    { name: "Weekly", value: "weekly", icon: <AiOutlineClockCircle className="text-gray-600" size={36} /> },
+    { name: "Monthly", value: "monthly", icon: <AiOutlineSchedule className="text-gray-600" size={36} /> },
   ];
 
-
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-3 gap-4 w-full">
       {types.map((type) => (
         <Card
           key={type.value}
@@ -27,7 +22,46 @@ const PeriodsFilter = () => {
   );
 };
 
-export default PeriodsFilter
+export default PeriodsFilter;
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import Card from "./Card";
+// import { assets } from "../../assets/assets";
+
+
+// const PeriodsFilter = () => {
+
+//     const types = [
+//     { name: "Daily", value: "daily", icon: assets.daily },
+//     { name: "Weekly", value: "weekly", icon: assets.weekly },
+//     { name: "Monthly", value: "monthly", icon: assets.monthly },
+//   ];
+
+
+//   return (
+//     <div className="grid grid-cols-3 gap-4">
+//       {types.map((type) => (
+//         <Card
+//           key={type.value}
+//           title={type.name}
+//           icon={type.icon}
+//           path={`/equbs/type/${type.value}`} // dynamic route
+//         />
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default PeriodsFilter
 
 
 

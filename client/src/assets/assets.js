@@ -25,6 +25,13 @@ import settings_black_svg from './images/settings-black.svg';
 import settings_brand_svg from './images/settings-brand.svg';
 import settings_white_svg from './images/settings-white.svg';
 
+import TeleBirr from "./images/TeleBirr.svg";
+import Cooperative from "./images/CooperativeOromia.svg";
+import Commercial from "./images/CommercialBank.svg";
+import Awash from "./images/AwashBank.svg";
+import BankAbyssinia from "./images/BankAbyssinia.svg"; 
+
+
 
 
 
@@ -77,6 +84,14 @@ export const assets = {
   merchants,
   employers,
   others,
+
+
+  TeleBirr,
+  Cooperative,
+  Commercial,
+  Awash,
+  BankAbyssinia
+  
 
 }
 
